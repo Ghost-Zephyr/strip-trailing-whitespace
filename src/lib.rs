@@ -1,4 +1,4 @@
-use std::{fs, io::{self, Read, Write}};
+use std::{fs, io::{self, Read}};
 
 pub fn strip_file(file: &str) -> io::Result<()> {
     let mut contents = String::new();
